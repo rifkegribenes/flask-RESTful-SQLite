@@ -16,7 +16,7 @@ class Item(Resource):
 	parser = reqparse.RequestParser()
 	parser.add_argument('price',
 		type=float,
-		reqired=True,
+		required=True,
 		help="This field cannot be blankß"
 		)
 
